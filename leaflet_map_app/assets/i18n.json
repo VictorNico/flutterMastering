@@ -1,0 +1,12 @@
+{
+  "en": {
+    "turn_left": "Turn left onto {street}.",
+    "turn_right": "Turn right onto {street}.",
+    "go_straight": "Continue straight for {distance} meters."
+  },
+  "fr": {
+    "turn_left": "Tournez à gauche sur {street}.",
+    "turn_right": "Tournez à droite sur {street}.",
+    "go_straight": "Continuez tout droit pendant {distance} mètres."
+  }
+}
