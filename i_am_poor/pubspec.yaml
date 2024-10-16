@@ -1,0 +1,77 @@
+name: i_am_poor
+description: "App Challenge of my training"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Source Code Pro
+      fonts:
+        - asset: fonts/SourceCodePro-Black.ttf
+        - asset: fonts/SourceCodePro-BlackItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-Bold.ttf
+        - asset: fonts/SourceCodePro-BoldItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-ExtraBold.ttf
+        - asset: fonts/SourceCodePro-ExtraBoldItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-ExtraLight.ttf
+        - asset: fonts/SourceCodePro-ExtraLightItalic.ttf
+        - asset: fonts/SourceCodePro-Italic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-Italic-VariableFont_wght.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-Light.ttf
+        - asset: fonts/SourceCodePro-LightItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-Medium.ttf
+        - asset: fonts/SourceCodePro-MediumItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-Regular.ttf
+        - asset: fonts/SourceCodePro-SemiBold.ttf
+        - asset: fonts/SourceCodePro-SemiBoldItalic.ttf
+          style: italic
+        - asset: fonts/SourceCodePro-VariableFont_wght.ttf
+        - asset: fonts/SourceCodePro-VariableFont_wght.ttf
+        - asset: fonts/SourceCodePro-VariableFont_wght.ttf
+
+
+  #  fonts:
+#       - asset: fonts/Schyler-Regular.ttf
+#       - asset: fonts/Schyler-Italic.ttf
+#         style: italic
+#       - family: Trajan Pro
+#     fonts:
+#       - asset: fonts/TrajanPro.ttf
+#       - asset: fonts/TrajanPro_Bold.ttf
+#         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
